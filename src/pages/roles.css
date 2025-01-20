@@ -1,0 +1,57 @@
+.animated-background {
+  position: relative;
+  background: linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0.9),
+    rgba(224, 242, 255, 0.8),
+    rgba(186, 224, 245, 0.7),
+    rgba(128, 181, 232, 0.6),
+    rgba(94, 149, 204, 0.5)
+  );
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.animated-background .container {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  10% {
+    background-position: 25% 25%;
+  }
+  20% {
+    background-position: 50% 0%;
+  }
+  30% {
+    background-position: 75% 25%;
+  }
+  40% {
+    background-position: 100% 50%;
+  }
+  50% {
+    background-position: 75% 75%;
+  }
+  60% {
+    background-position: 50% 100%;
+  }
+  70% {
+    background-position: 25% 75%;
+  }
+  80% {
+    background-position: 0% 50%;
+  }
+  90% {
+    background-position: 25% 25%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+}
