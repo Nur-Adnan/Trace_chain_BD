@@ -1,4 +1,3 @@
-# Trace_chain_BD
 # TraceChain BD: A Blockchain-Based Strategy to Prevent Import Fraud and Counterfeiting in Bangladesh
 
 TraceChain BD is a blockchain-based solution designed to enhance transparency, traceability, and trust within supply chains. By leveraging blockchain technology, the system aims to prevent import fraud and counterfeiting, ensuring product authenticity and regulatory compliance for importers, distributors, retailers, and consumers in Bangladesh.
